@@ -103,6 +103,12 @@
   .slugChilds{
     display: none;
   }
+  .card>p{
+    margin: 0 !important;
+  }
+  .top-heading{
+    margin-top: 0 !important;
+  }
 }
 @media(min-width:769px){
   .slugChilds{

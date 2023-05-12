@@ -11,7 +11,7 @@ const Card = ({ data }) => {
     return (
         <div className='card'>
             <div className="chevron-container">
-                <h4>{data.name}</h4>
+                <h4 className="top-heading">{data.name}</h4>
                 <span onClick={operation}>{flag ? <ExpandMoreIcon />:<ChevronRightIcon />}</span>
             </div>
             <p>{data.study_short_description}</p>
